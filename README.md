@@ -41,9 +41,9 @@ npm run dev
 ```
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
-SMTP_USER=hasibulmunim@gmail.com
+SMTP_USER=munimm247@gmail.com
 SMTP_PASS=<Gmail app-specific password>
-TO_EMAIL=hasibulmunim@gmail.com
+TO_EMAIL=munimm247@gmail.com
 ```
 
 To create a Gmail app password: Gmail Settings → Security → 2-Step Verification → App Passwords
@@ -53,7 +53,7 @@ To create a Gmail app password: Gmail Settings → Security → 2-Step Verificat
 ## Contact Info (hardcoded in site)
 
 - Phone/WhatsApp: +8801941646278
-- Email: hasibulmunim@gmail.com
+- Email: munimm247@gmail.com
 - WeChat: hasibul_munim
 - Location: Gazipur, Dhaka Division, Bangladesh
 - Hours: Saturday–Thursday, 9:00 AM – 6:00 PM (BST)

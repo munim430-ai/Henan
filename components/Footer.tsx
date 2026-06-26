@@ -74,11 +74,11 @@ export default function Footer() {
                 WhatsApp: +880 1941 646278
               </a>
               <a
-                href="mailto:hasibulmunim@gmail.com"
+                href="mailto:munimm247@gmail.com"
                 className="flex items-center gap-3 text-sm hover:text-white transition-colors"
               >
                 <Mail size={15} className="text-brand-green flex-shrink-0" />
-                hasibulmunim@gmail.com
+                munimm247@gmail.com
               </a>
               <div className="flex items-start gap-3 text-sm">
                 <MapPin size={15} className="text-brand-green flex-shrink-0 mt-0.5" />
@@ -143,7 +143,7 @@ export default function Footer() {
             <div className="flex items-center gap-2 text-xs text-gray-600">
               <span>WeChat: hasibul_munim</span>
               <span className="text-gray-700">·</span>
-              <span>Email: hasibulmunim@gmail.com</span>
+              <span>Email: munimm247@gmail.com</span>
             </div>
           </div>
         </div>

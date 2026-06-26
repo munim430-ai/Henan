@@ -22,7 +22,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const toEmail = process.env.TO_EMAIL || "hasibulmunim@gmail.com";
+    const toEmail = process.env.TO_EMAIL || "munimm247@gmail.com";
 
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST || "smtp.gmail.com",

@@ -333,10 +333,10 @@ export default function QuoteForm() {
               💬 WhatsApp
             </a>
             <a
-              href="mailto:hasibulmunim@gmail.com"
+              href="mailto:munimm247@gmail.com"
               className="inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-white border border-gray-300 text-gray-700 font-semibold text-sm rounded-xl hover:bg-gray-50 shadow-sm"
             >
-              ✉️ hasibulmunim@gmail.com
+              ✉️ munimm247@gmail.com
             </a>
           </div>
         </div>
