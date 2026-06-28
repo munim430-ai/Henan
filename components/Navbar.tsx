@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
+import Image from "next/image";
 
 const navLinks = [
   { label: "Home", href: "#" },
@@ -21,14 +22,17 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="#" className="flex items-center gap-3">
-            <div className="flex flex-col leading-tight">
-              <span className="text-white font-extrabold text-lg tracking-wide">
-                HENAN SITONG
-              </span>
-              <span className="text-green-400 text-xs font-medium tracking-widest uppercase">
-                Bangladesh Partner
-              </span>
-            </div>
+            <Image
+              src="https://www.sitong-boiler.com/static/image/logo.png"
+              alt="Henan Sitong Boiler"
+              width={120}
+              height={36}
+              className="h-9 w-auto object-contain brightness-0 invert"
+              unoptimized
+            />
+            <span className="text-green-400 text-xs font-medium tracking-widest uppercase hidden sm:block">
+              Bangladesh Partner
+            </span>
           </a>
 
           {/* Desktop Nav */}

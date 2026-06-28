@@ -1,6 +1,6 @@
 const trustItems = [
   { icon: "🏆", label: "ISO 9001 Certified", sub: "Grade A Licensed" },
-  { icon: "🌍", label: "Exported to 50+ Countries", sub: "Since 1990s" },
+  { icon: "🌍", label: "Exported to 90+ Countries", sub: "ASME, CE, SGS certified" },
   {
     icon: "📋",
     label: "Bangladesh Reg. Docs Included",

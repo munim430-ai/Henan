@@ -1,4 +1,5 @@
 import { Factory, Globe2, Shield } from "lucide-react";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -59,14 +60,14 @@ export default function About() {
               },
               {
                 icon: <Globe2 size={28} className="text-brand-green" />,
-                value: "50+",
+                value: "90+",
                 label: "Countries Served",
                 bg: "bg-green-50",
               },
               {
                 icon: <Shield size={28} className="text-brand-navy" />,
-                value: "10,000+",
-                label: "Boilers Installed",
+                value: "1,680+",
+                label: "Boilers Delivered",
                 bg: "bg-blue-50",
               },
               {
@@ -93,6 +94,33 @@ export default function About() {
                     {stat.label}
                   </p>
                 </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Factory photos */}
+        <div className="mt-16">
+          <p className="text-center text-sm font-semibold text-gray-500 uppercase tracking-widest mb-6">
+            Henan Sitong — 300,000 m² Factory Complex
+          </p>
+          <div className="grid grid-cols-3 gap-3 md:gap-4">
+            {[
+              "https://www.sitong-boiler.com/static/image/gongsi1.jpg",
+              "https://www.sitong-boiler.com/static/image/gongsi2.jpg",
+              "https://www.sitong-boiler.com/static/image/gongsi3.jpg",
+            ].map((src, i) => (
+              <div
+                key={i}
+                className="relative aspect-video rounded-xl overflow-hidden bg-gray-100 shadow-md"
+              >
+                <Image
+                  src={src}
+                  alt={`Henan Sitong factory ${i + 1}`}
+                  fill
+                  className="object-cover"
+                  unoptimized
+                />
               </div>
             ))}
           </div>

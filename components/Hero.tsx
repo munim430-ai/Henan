@@ -86,13 +86,13 @@ export default function Hero() {
           {/* Social proof */}
           <div className="mt-12 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-8 text-blue-200 text-sm">
             <div className="flex items-center gap-2">
-              <span className="text-2xl font-bold text-white">50+</span>
+              <span className="text-2xl font-bold text-white">90+</span>
               Countries Served
             </div>
             <div className="hidden sm:block w-px h-8 bg-white/20" />
             <div className="flex items-center gap-2">
-              <span className="text-2xl font-bold text-white">30+</span>
-              Years Manufacturing
+              <span className="text-2xl font-bold text-white">1,680+</span>
+              Boilers Delivered
             </div>
             <div className="hidden sm:block w-px h-8 bg-white/20" />
             <div className="flex items-center gap-2">

@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
+import Image from "next/image";
 
 const navSections = [
   {
@@ -41,10 +42,15 @@ export default function Footer() {
           {/* Brand column */}
           <div>
             <div className="mb-6">
-              <span className="text-white font-extrabold text-xl tracking-wide">
-                HENAN SITONG
-              </span>
-              <p className="text-green-400 text-xs font-semibold tracking-widest uppercase mt-0.5">
+              <Image
+                src="https://www.sitong-boiler.com/static/image/logo.png"
+                alt="Henan Sitong Boiler"
+                width={130}
+                height={38}
+                className="h-10 w-auto object-contain brightness-0 invert mb-2"
+                unoptimized
+              />
+              <p className="text-green-400 text-xs font-semibold tracking-widest uppercase">
                 Bangladesh Authorized Representative
               </p>
             </div>
@@ -80,6 +86,10 @@ export default function Footer() {
                 <Mail size={15} className="text-brand-green flex-shrink-0" />
                 munimm247@gmail.com
               </a>
+              <div className="flex items-center gap-3 text-sm">
+                <span className="text-brand-green text-base flex-shrink-0">💬</span>
+                <span>WeChat: <strong className="text-gray-300">hasibul_munim</strong></span>
+              </div>
               <div className="flex items-start gap-3 text-sm">
                 <MapPin size={15} className="text-brand-green flex-shrink-0 mt-0.5" />
                 <span>Gazipur, Dhaka Division, Bangladesh</span>

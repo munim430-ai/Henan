@@ -6,6 +6,7 @@ import About from "@/components/About";
 import WhyUs from "@/components/WhyUs";
 import Products from "@/components/Products";
 import TdfBadge from "@/components/TdfBadge";
+import FuelCalculator from "@/components/FuelCalculator";
 import Compliance from "@/components/Compliance";
 import AfterSales from "@/components/AfterSales";
 import QuoteForm from "@/components/QuoteForm";
@@ -21,6 +22,7 @@ export default function Home() {
       <About />
       <WhyUs />
       <Products />
+      <FuelCalculator />
       <TdfBadge />
       <Compliance />
       <AfterSales />
